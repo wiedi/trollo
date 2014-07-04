@@ -66,4 +66,4 @@ function main(config) {
 	trello.on('updateCheckItemStateOnCard', sendMessage)
 }
 
-main(require('./config.json'))
+main(require(process.env.CONFIG_FILE))
