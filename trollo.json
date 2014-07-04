@@ -1,0 +1,10 @@
+{
+	"server": "irc.xchannel.org",
+	"nick": "trollo",
+	"channel": "#xchannel",
+	"trello": {
+		"boards": ["boardid"],
+		"key": "get from https://trello.com/1/appKey/generate",
+		"token": "and this from here https://trello.com/1/authorize?key=substitutewithyourapplicationkey&name=trollo&expiration=never&response_type=token"
+	}
+}

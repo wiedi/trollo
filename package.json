@@ -1,0 +1,14 @@
+{
+    "name":        "trollo",
+    "description": "trello irc bot",
+    "author":      "Sebastian Wiedenroth <wiedi@frubar.net>",
+    "version": "0.0.1",
+    "bin": {
+        "trollo": "./main.js"
+      },
+    "dependencies": {
+        "irc": "0.3.x",
+        "trello-events": "0.1.x",
+        "ellipsize": "0.0.x"
+    }
+}
