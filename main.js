@@ -37,7 +37,7 @@ function formatMessage(event) {
 function main(config) {
 	var enabled = false
 	var client = new irc.Client(config.server, config.nick, {channels: [config.channel]})
-	var trello = new Trello({pollFrequency: 1000 * 20, minId: 0, start: true, trello: config.trello })
+	var trello = new Trello({pollFrequency: 1000 * 60, minId: 0, start: true, trello: config.trello })
 	
 	client.on('error', function(message) {
 		console.log(message)
