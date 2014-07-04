@@ -12,7 +12,7 @@ The Trello IRC Bot
 
 You'll need an API Key & Token:
  - <https://trello.com/1/appKey/generate>
- - <https://trello.com/1/authorize?key=appkeygoeshere&amp;name=trollo&amp;expiration=never&amp;response_type=token>
+ - <https://trello.com/1/authorize?key=appkeygoeshere&name=trollo&expiration=never&response_type=token>
 
 Example:
 
